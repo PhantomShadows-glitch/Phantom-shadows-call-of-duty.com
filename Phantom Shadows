@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phantom Shadows - Gaming Clan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111111; /* Primary Background Color */
+      color: #f5f5f5; /* Text Color */
+      text-align: center;
+    }
+    header {
+      background-color: #1e1e2f; /* Secondary Background */
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #ff6f3c; /* Accent Color */
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      color: #f5f5f5; /* Text Color */
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ff3c4c; /* Hover Effect Color */
+    }
+    section {
+      padding: 20px;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+      padding: 100px 20px;
+      color: #f5f5f5; /* Text Color */
+    }
+    footer {
+      background-color: #1e1e2f; /* Footer Background */
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+    button {
+      background-color: #ff6f3c; /* Accent Button Color */
+      color: #f5f5f5; /* Button Text Color */
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #ff3c4c; /* Button Hover Color */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Phantom Shadows</h1>
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Phantom Shadows</h2>
+    <p>Your ultimate gaming clan hub for teamwork and domination!</p>
+    <button>Join Now</button>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Phantom Shadows is a gaming clan dedicated to uniting players worldwide. Join us in tournaments, explore strategies, and connect with fellow gamers.</p>
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <p>Stay tuned for exciting tournaments and community events. Get ready to showcase your skills!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: phantomshadows@clanmail.com</p>
+    <p>Discord: Join our server for real-time updates and discussions!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Phantom Shadows | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
